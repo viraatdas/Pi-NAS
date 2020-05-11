@@ -22,3 +22,7 @@ Once the sender sends the file, they will be prompted if they want to receive th
 
 ##### Note
 Chance is that this project might not be used on a Pi and potentially on an old laptop
+
+#### TODO
+- [ ] Accommodate so multiple client can log on [thread]
+- [ ] Create a way for a client to see all clients on server
