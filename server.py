@@ -1,11 +1,10 @@
 import socket
+import config_funcs
 
 
 host = "localhost"
 port = 8000
 
-def send_server_msg(message):
-    return str.encode(message)
 
 
 s = socket.socket()
@@ -30,5 +29,5 @@ while True:
            l = f.read(1024)
 
     print('Done sending')
-    conn.send(send_server_msg("Thank you for connecting"))
+    conn.send(config_funcs.send_server_msg("Thank you for connecting"))
     conn.close()
