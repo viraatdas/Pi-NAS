@@ -17,5 +17,8 @@ be shown to everyone else on the network. Additionally, they'll set a *download*
 A user will be displayed the users currently connected to the network or have the option to type the unique name in 
 of the person they want to send the file to. 
 
-### Receive
+#### Receive
 Once the sender sends the file, they will be prompted if they want to receive the file or not. 
+
+##### Note
+Chance is that this project might not be used on a Pi and potentially on an old laptop
